@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!-- saved from url=(0085)http://old.code.mu/exercises/javascript/dom/osnovy-raboty-s-dom-v-javascript/6/3.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>Задачник JavaScript от Трепачёва Дмитрия</title>
+	<style>
+		input {
+			width: 200px;
+		}
+	</style>
+	<script>
+		function go(){
+			var test = document.getElementById('test');
+			var value = test.value;
+			if(!isNaN(value)){
+				var result = document.getElementById('result');
+				result.value =  value*value;
+			} else {
+				alert('Введено не число!')
+			}
+		}
+	</script>
+</head>
+<body>
+	<p>
+		По нажатию на кнопку в нижнем инпуте появится квадрат числа из верхнего инпута. Если введено не число - должна показаться ошибка.
+	</p>
+	<input type="text" value="" placeholder="Введите число!" id="test"><br><br>
+	<input id="result" value="Здесь появится результат." disabled=""><br><br>
+	<button onclick="go()">Нажми на меня!</button>
+
+</body></html>

@@ -1,0 +1,36 @@
+body{
+    background-image: url("assets/img/fon.jpg");
+    background-repeat: no-repeat;
+}
+.red{
+    color: rgb(0,255,0);
+}
+
+p.red{
+    font-size: 30px;
+    
+}
+
+h1{
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none    
+}
+
+a:hover{
+    color: rgb(9,66,52);
+}
+
+a:visited{
+    color: rgb(240, 96, 0);
+}
+
+a:active{
+    color: violet;
+}
+
+.test{
+    display: block;
+}

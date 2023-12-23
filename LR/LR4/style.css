@@ -1,0 +1,312 @@
+#z1_1{
+    height: 300px;
+    width: 300px;
+    margin: 3px;
+    border: 3px dotted blue;
+    
+    margin-bottom: 50px;
+}
+#z1_11{
+    height: 200px;
+    width: 200px;
+    margin: 15%;
+    border: 3px solid gold;
+}
+#z1_2{
+    height: 300px;
+    width: 400px;
+    margin: 3px;
+    border: 3px dotted blue;
+    margin-bottom: 50px;
+}
+#z1_21{
+    height: 200px;
+    width: 300px;
+    margin: 10%;
+    border: 3px dotted green;
+}
+#z1_22{
+    height: 150px;
+    width: 250px;
+    margin: 25px;
+    border: 3px solid red;
+    
+}
+#z1_3{
+    height: 400px;
+    width: 300px;
+    margin: 3px;
+    border: 3px solid red;
+    
+    margin-bottom: 50px;
+}
+#z1_31{
+    margin-bottom: 100px ;
+    height: 150px;
+    width: 150px;
+    margin: 25%;
+    border: 3px solid green;
+}
+#z1_4{
+    height: 300px;
+    width: 500px;
+    margin: 3px;
+    border: 3px solid red;
+    
+    margin-bottom: 50px;
+}
+#z1_41{
+    margin-top: 10% ;
+    height: 200px;
+    width: 100px;
+    margin-left: 40%;
+    border: 3px solid green;
+}
+#z1_5{
+    height: 400px;
+    width: 300px;
+    margin: 3px;
+    border: 3px solid gold;
+    
+    margin-bottom: 50px;
+}
+#z1_51{
+    margin-top: 50% ;
+    height: 100px;
+    width: 200px;
+    margin-left: 15%;
+    border: 3px dashed blue;
+}
+#z2_1{
+    width: 200px;
+    height: 250px;
+    padding: 30px;
+    border: 3px solid red;
+    margin-bottom: 50px;
+}
+#z2_2{
+    width: 400px;
+    height: 120px;
+    padding: 30px;
+    border: 3px solid green;
+    margin-bottom: 50px;
+}
+#z2_3{
+    width: 300px;
+    height: 160px;
+    padding: 15px;
+    margin-left: 4%;
+    border: 3px solid red;
+    margin-bottom: 50px;
+}
+#z2_4{
+    width: 200px;
+    height: 300px;
+    padding: 40px 15px 30px 15px;
+    border: 3px solid red;
+    margin-bottom: 50px;
+}
+p{
+    display: inline;
+    width: 100px;
+    height: 100px;
+
+}
+a{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.elem{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+#z5_1{
+    height: 200px;
+    width: 300px;
+    background-color: greenyellow;
+    margin-bottom: 20px;
+}
+#z5_11{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    height: 70px;
+    width: 70px;
+    background-color: white;
+}
+#z5_12{
+    position: relative;
+    top: 30px;
+    left: 200px;
+    height: 70px;
+    width: 70px;
+    background-color: white;
+}
+#z5_2{
+    height: 400px;
+    width: 200px;
+    border: 3px solid black;
+    margin-bottom: 20px;
+}
+#z5_21{
+    margin-top: 10px;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    border: 1px solid black;
+    background-color: red;
+}
+#z5_22{
+    margin-top: 10px;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    border: 1px solid black;
+    background-color: yellow;
+}
+#z5_23{
+    margin-top: 10px;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    border: 1px solid black;
+    background-color: green;
+}
+#z5_3{
+    height: 400px;
+    width: 400px;
+    border-radius: 400px;
+    background-color: greenyellow;
+    margin-bottom: 20px;
+}
+#z5_31{
+    position: relative;
+    top: 70px;
+    left: 50px;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    background-color: white;
+}
+#z5_32{
+    position: relative;
+    bottom: 30px;
+    left: 250px;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    background-color: white;
+}
+#z5_33{
+    position: relative;
+    bottom: 30px;
+    left: 160px;
+    height: 80px;
+    width: 80px;
+    background-color: white;
+}
+#z5_34{
+    position: relative;
+    top: 20px;
+    left: 110px;
+    height: 20px;
+    width: 180px;
+    background-color: white;
+}
+#z6_1{
+    width: 200px;
+    height: 200px;
+    background-color:red;
+    z-index: 0;
+}
+#z6_2{
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+    width: 200px;
+    height: 200px;
+    background-color:blue;
+    z-index: 2;
+}
+#z6_3{
+    position: relative;
+    bottom: 200px;
+    left: 200px;
+    width: 200px;
+    height: 200px;
+    background-color:green;
+    z-index: 1;
+}
+#z6_21{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    left: 100px;
+    bottom: 100px;
+    background-color:blue;
+    z-index: 2;
+}
+#z6_22{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color:red;
+    z-index: 3;
+}
+#z6_23{
+    position: relative;
+    bottom: 200px;
+    left: 200px;
+    width: 200px;
+    height: 200px;
+    background-color:green;
+    z-index: 1;
+}
+#img1 {
+    float: left; 
+    margin-right: 20px
+}
+#img2 {
+    float: right; 
+    margin-left: 20px;
+    
+    
+}
+#z7{
+    width: 400px;
+    text-align: justify;
+}
+.parallax{
+    height: 500px;
+    background-image: url("img/bg.png");
+    background-attachment: fixed;
+    color: #ffffff;
+    font-size: 60px;
+    position: relative;
+}
+.parallax .mask{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .6);
+    z-index: 2;
+}
+.parallax h1{
+    z-index: 3;
+}

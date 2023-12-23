@@ -1,0 +1,1 @@
+let fokus = (tyk=document.getElementById('input'))=>{tyk.value='Хоба(Текст изменился)';}

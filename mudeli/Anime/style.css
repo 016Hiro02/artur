@@ -1,0 +1,76 @@
+
+/* SLide1 */
+/* #bb{
+    width: 200px;
+    height: 200px;
+    border:  1px solid red; 
+    transition: all 1s linear 0.2s; 
+}
+#bb:hover{
+    width: 250px;
+    height: 250px;
+} */
+
+/* SLide2 */
+/* #bb{
+    width: 200px;
+    height: 200px;
+    border:  1px solid red; 
+    transform-origin: left top;
+    transition: all 1s ease 0.2s; 
+    background: orange;
+}
+#bb:hover{
+    background: violet;
+    scale: 150%;
+} */
+/* SLide3 */
+#bb{
+    width: 150px;
+    height: 150px;
+    border:  1px solid red; 
+    transform-origin: left top;
+}
+
+#bb:hover{ 
+    animation: rainbow 10s linear 0.2s;
+}
+
+@keyframes rainbow {
+    0%{transform: scaleX(110%);
+        background: red;}
+    20%{transform: scaleX(110%) scaleY(110%);
+        background: orange;}
+    40%{transform: scaleY(110%) scaleX(120%);
+        background: yellow;}
+    60%{transform: scaleX(120%) scaleY(120%);
+        background: green;}
+    80%{transform: scaleY(120%) scaleX(130%);
+        background: lightblue}
+    100%{transform: scaleX(130%) scaleY(130%);
+        background: violet;}
+}
+/* SLide4 */
+/* #bb{
+    width: 50px;
+    height: 50px;
+    border:  1px solid red; 
+}
+#dk{
+    width: 100px;
+    height: 50px;
+    border:  1px solid red; 
+    transform-origin: left;
+}
+#dk:hover{
+    animation: soda 10s ease 0.2s;
+}
+
+@keyframes soda {
+    0%{transform: scaleX(110%)}
+    20%{transform: scaleX(130%)}
+    40%{transform: scaleX(160%)}
+    60%{transform: scaleX(190%)}
+    80%{transform: scaleX(200%)}
+    100%{transform: scaleX(210%)}
+} */

@@ -1,0 +1,107 @@
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    max-width: 1180px;
+    margin: 0px auto;
+}
+
+.content{
+    flex: 1 1 auto;
+}
+
+.hi{
+    background-color: #445162;
+    padding: 50px 0;
+}
+
+.hi_row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hi_body{
+    color: #fff;
+    padding: 0px 30px 0px 0px;
+}
+
+.hi_title{
+    text-shadow: 1px 1px 0 rgb(0, 0, 0, 0.3);
+    font-size: 60px;
+    margin: 0px 0px 38px 0px;
+}
+
+.hi_list{
+
+}
+
+.hi_list li{
+    background: url(assets\img\Letov_Protocol.jpg) 0 1px no-repeat;
+    text-shadow: 1px 1px 0 rgb(0, 0, 0, 0.3);
+    font-size: 20px;
+    padding: 0px 0px 0px 36px;
+    margin:  0px 0px 15px 0px ;
+}
+
+.hi_image{
+
+}
+
+.title{
+    color: #445162;
+    font-size:  30px;
+    line-height: 36px;
+}
+
+.what{
+    padding: 50px 0;
+}
+
+.what_row{
+    display: flex;
+}
+
+.what_image{
+    flex: 0 0 430px;
+}
+
+.what_body{
+    flex: 1 1 auto;
+    padding: 0px 0px 33px 0px;
+}
+
+.what_title{
+    margin:  0px 0px 33px 0px; 
+}
+
+.what_text p{
+    margin: 0px 0px 25px 0px;
+    color: #333333;
+    font-size:  16px;
+    line-height: 24px;
+}
+
+.footer{
+    background-color: #f5f5f5;
+}
+
+.footer_row{
+    display: flex;
+    height:  65px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_text{
+    color:  #445162;
+    font-size: 12px;
+    letter-spacing: 0.3px; 
+}
+

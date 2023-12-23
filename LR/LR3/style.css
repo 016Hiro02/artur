@@ -1,0 +1,424 @@
+/*p{
+    color: red;
+}
+/*задание 1*/
+/*
+h1{
+    color: green;
+}
+h2{
+    color: #4495f1;
+}
+h3{
+    color: rgb(255, 0, 0);
+}
+p{
+    color: orange;
+}
+/*Задние 2*/
+/*
+td{
+    width: 200px;
+    height: 100px;
+}
+/*Задние 3*/
+/*
+td{
+    width: 400px;
+    height: 300px;
+}
+/*Задние 4*/
+/*
+h1{
+    text-align: right;
+}
+h2{
+    text-align: center;
+    width: 300px;
+    align-self: center;
+}
+table{
+    width: 500px;
+}
+th{
+    text-align: left;
+}
+td{
+    text-align: center;
+}
+p{
+    width: 300px;
+    text-align:justify;
+}
+/*Задние 5*/
+/*
+h2{
+    font-weight: normal;
+}
+p{
+    font-weight: bold;
+}
+/*Задние 6*/
+/*
+table{
+    width: 500px;
+    height: 300px;
+}
+th{
+    font-weight: normal;
+}
+td{
+    text-align: center;
+    font-weight: bold;
+}
+/*Задние 7*/
+/*
+h2{
+    font-style: italic;
+{
+p{
+    font-style: italic;
+    font-size: 30px;
+}
+/*Задние 8*/
+/*
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+h2{
+    font-size: 40px;
+    font-weight: normal;
+}
+p{
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 30px;
+}
+/*Задние 9*/
+/*
+.p1{
+    font-family:Arial, sans-serif;
+}
+.p2{
+    font-family:Georgia, sans-serif;
+}
+.p3{
+    font-family:Verdana, sans-serif;
+}
+.p4{
+    font-family:"Trebuchet MS", sans-serif;
+}
+.p5{
+    font-family:"Impact", sans-serif;
+}
+.p6{
+    font-family:"Arial Black", sans-serif;
+}
+.p7{
+    font-family:"Courier New", sans-serif;
+}
+.p8{
+    font-family:"Comic Sans MS", sans-serif;
+}
+.p9{
+    font-family: "Times New Roman", sans-serif;
+}
+/*Задние 10*/
+/*
+.ZD11_p{
+    font-size: 30px;
+    line-height: 45px;
+    text-align: justify;
+    width: 400px;
+}
+.ZD11_p1{
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: justify;
+    width: 400px;
+}
+/*Задние 11*/
+/*
+.ZD12_1{
+    text-indent: 50px;
+    font:13px/20px "Times New Roman";
+}
+.ZD12_2{
+    width: 300px;
+    font: bold 40px red Arial;
+}
+.ZD12_3{
+    text-indent: 50px;
+    font: bold italic 40px/60px Arial;
+}
+/*Задние 12*/
+/*
+.ZD13_h1{
+    text-align: center;
+    color: blue;
+    font-size: 50px;
+}
+.ZD13_h2{
+    text-align: center;
+    color: green;
+    font-size: 36px;
+    font-style: normal;
+}
+.ZD13{
+    width: 800px;
+    font-size: 30px;
+}
+/*Задние 13*/
+/*
+.ZD14_1, .ZD14_2, .ZD14_3{
+    text-align: center;
+}
+/*Задние 14*/
+/*
+.ZD15_1,.ZD15_2,.ZD15_3 {
+text-align: center;
+}
+.ZD15_2 {
+color: blue;
+}
+.ZD15_3 {
+font-size: 16px;
+color: red;
+}
+
+.ZD15_11,.ZD15_22,.ZD15_33 {
+text-align: center;
+color: red;
+}
+.ZD15_3 {
+font-size: 16px;
+}
+/*Задние 15*/
+/*
+ul li i{
+    color: red;
+}
+/*Задние 16*/
+/*
+p i{
+    color: green;
+    }
+p b i{
+    color: red;
+}
+/*Задние 17*/
+/*
+.zadanie18{
+    color: black;
+}
+ul li > b{
+    color: red;
+}
+/*Задние 18*/
+/*
+.odd{
+    color: red;
+}
+.eve{
+    color: green;
+}
+.eee{
+    color: red;
+}
+/*Задние 19*/
+/*
+.z20 p,.z20 h2{
+    color: red;
+}
+.z20_1 p,.z20_1 h2{
+    color: green;
+}
+.z20_2 p,.z20_2 p h2{
+    color: blue;
+}
+.z20_11 p,.z20_11 h2,.z20_33 p,.z20_33 h2{
+    color: red;
+} 
+.z20_22 p,.z20_22 h2,.z20_44 p,.z20_44 h2{
+    color: red;
+}
+/*Задние 20*/
+/*
+.eee, .zzz{
+    line-height: 1.5;
+    font-family: Arial;
+} 
+.eee {
+    font-size: 20px;
+}
+.zzz {
+    font-size: 30px;
+}
+.eee, .zzz, .ggg{
+    text-align: center;
+    font-family: Arial;
+}
+.eee {
+    font-size: 20px;
+    }
+.zzz {
+    font-size: 30px;
+}
+.ggg {
+    font-size: 35px;
+}
+/*Задние 21*/
+/*
+h2.header{
+    font-size: 40px;
+}
+h3.header{
+    font-size: 30px;
+}
+/*Задние 22*/
+/*
+.success {
+    color: green;
+}
+.error {
+    color: red;
+}
+.large {
+    font-size: 30px;
+}
+.small {
+    font-size: 20px;
+}
+/*Задние 23*/
+/*
+#elem1 h2, #elem1 p{
+    color: red;
+}
+#elem2 h2, #elem2 p{
+    color: green;
+}
+#elem3 h2, #elem3 p{
+    color: blue;
+}
+/*Задние 24*/
+/*
+#id1 a:link {
+    text-decoration: none;
+    color: blue;
+}
+#id1 a:hover{
+    color: red;
+}
+
+#id1 a:visited{
+    color: green;
+}
+#id1 a:active{
+    color: black;
+}
+/*Задние 25*/
+/*
+#id2 a:hover{
+    color: red;
+    text-decoration: underline;
+}
+#id2 a:link {
+    text-decoration: none;
+    color: blue;
+}
+#id2 a:active{
+    color: blue;
+}
+/*Задние 26*/
+/*
+#z27_1{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    margin: 20px;
+}
+#z27_2{
+    width: 300px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    background-color: greenyellow;
+    margin: 20px;
+}
+/*Задние 27*/
+/*
+#z28_1{
+    width: 300px;
+    height: 200px;
+    border: 7px solid blue;
+    margin: 20px;
+}
+#z28_2{
+    width: 300px;
+    height: 200px;
+    border: 7px dotted red;
+    margin: 20px;
+}
+#z28_3{
+    width: 300px;
+    height: 200px;
+    border: 7px dashed gold;
+    margin: 20px;
+}
+#z28_4{
+    width: 300px;
+    height: 200px;
+    border: 17px double blue;
+    margin: 20px;
+}
+#z28_5{
+    width: 300px;
+    height: 200px;
+    border-left: 7px solid gold ;
+    border-top: 7px solid blue ;
+    border-right: 7px solid green ;
+    border-bottom: 7px solid red ;
+    margin: 20px;
+}
+#z28_6{
+    width: 300px;
+    height: 200px;
+    border-left: 7px solid red ;
+    border-top: 7px solid blue ;
+    border-right: 7px dotted green ;
+    border-bottom: 7px solid blue ;
+    margin: 20px;
+}
+#z28_7{
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    border-radius: 30px ;
+    margin: 20px;
+}
+#z28_8{
+    width: 200px;
+    height: 200px;
+    border: 5px solid greenyellow;
+    border-radius: 200px ;
+    margin: 20px;
+}
+#z28_9{
+    width: 200px;
+    height: 200px;
+    border: 5px solid greenyellow;
+    border-radius: 15px 40px 15px 40px ;
+    margin: 20px;
+}
+/*Задние 28*/
+/*
+body{
+    background-repeat: repeat-x;
+    background-image: url("bg.png");
+}
+.z30 {
+    list-style-type: none;
+    }
+/*Задние 29
+  Задние 30*/

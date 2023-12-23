@@ -1,0 +1,16 @@
+body{
+    background: black url("space.jpg") no-repeat left top fixed;
+}
+
+p{ 
+text-align: justify; text-align-last: justify; font-size: 20px
+}
+
+h1, p
+{
+    width: 500px; color: white
+}
+
+h1{ 
+    text-align: center;
+}

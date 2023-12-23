@@ -1,0 +1,14 @@
+body{
+    background: url("fon2.jpg") repeat-y right top;
+}
+
+p{
+    width: 500px;
+    text-align: justify;
+    text-align-last: justify;
+    font-weight: bold;
+}
+
+h1, p{
+    color: black;
+}

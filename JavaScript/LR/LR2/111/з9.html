@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!-- saved from url=(0085)http://old.code.mu/exercises/javascript/dom/osnovy-raboty-s-dom-v-javascript/6/1.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>Задачник JavaScript от Трепачёва Дмитрия</title>
+	<style>
+		input {
+			width: 100px;
+		}
+	</style>
+	<script>
+		function go(){
+			var test1 = document.getElementById('test1');
+			var test2 = document.getElementById('test2');
+			var tmp = test1.value;
+			test1.value = test2.value;
+			test2.value = tmp;
+		}
+	</script>
+</head>
+<body>
+	<input type="text" value="Привет!" id="test1">
+	<input type="text" value="Пока!" id="test2">
+	<button onclick="go()">Нажми на меня!</button>
+
+</body></html>
