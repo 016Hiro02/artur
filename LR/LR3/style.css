@@ -422,3 +422,8 @@ body{
     }
 /*Задние 29
   Задние 30*/
+
+  .main {
+    display: flex;
+    justify-content: flex-end;
+  }
