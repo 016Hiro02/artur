@@ -427,3 +427,8 @@ body{
     display: flex;
     justify-content: flex-end;
   }
+
+
+  .main__top {
+    background: #000;
+  }
